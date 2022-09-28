@@ -13,3 +13,16 @@
 .card-container:hover {
   transform: scale(1.05);
 }
+
+.link:visited,
+.link {
+  color: blue;
+  text-decoration: none;
+  transition: all 0.2;
+}
+
+.link:active,
+.link:hover {
+  color: white;
+  text-decoration: underline;
+}
